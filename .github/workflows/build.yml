@@ -177,7 +177,7 @@ jobs:
           ref: "dev"
 
       - name: Build & Test in VM
-        uses: cross-platform-actions/action@master
+        uses: cross-platform-actions/action@netbsd-slow-network-46
         with:
           operating_system: ${{matrix.os}}
           architecture: ${{matrix.arch}}
